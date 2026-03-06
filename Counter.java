@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Counter {
+    private int count;
 
     // 1. Dichiara qui le variabili di istanza private (es. il conteggio)
 
@@ -13,22 +14,25 @@ public class Counter {
     // 3. Restituisce il valore attuale del contatore
     public int getCount() {
         // Inserisci qui la tua logica
-        return 0; 
+        return count; 
     }
 
     // 4. Incrementa il contatore di 1
     public void increment() {
+        count ++;
         // Inserisci qui la tua logica
     }
 
     // 5. Incrementa il contatore di un valore specifico (Overloading)
     public void increment(int value) {
+        count += value;
         // Inserisci qui la tua logica
     }
 
     // 6. Riporta il contatore a zero
     public void reset() {
         // Inserisci qui la tua logica
+        count=0;
     }
 
     // Non toccare il Main altrimenti la prova non verrà valutata
