@@ -35,7 +35,7 @@ public class Counter {
         count=0;
     }
 
-    // Non toccare il Main altrimenti la prova non verrà valutata
+    // Non toccare il Main altrimenti la prova non verra valutata
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Counter c = new Counter();
